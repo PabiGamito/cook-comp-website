@@ -1111,8 +1111,6 @@ button {
   background-origin: padding-box;
   background-position-x: 0%;
   background-position-y: 0%;
-  background-repeat-x: ;
-  background-repeat-y: ;
   background-size: auto;
   border-bottom-color: rgb(0, 0, 0);
   border-bottom-left-radius: 25px;
@@ -1182,5 +1180,19 @@ button {
 }
 
 #subscribe button {
-  
+  background-color: #ddd;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  background-image: -webkit-linear-gradient(135deg, #91d1ff 0%, #a387ff 100%);
+  margin-left: -105px;
+  margin-top: -2px;
 }
