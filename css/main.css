@@ -889,6 +889,7 @@ ol li {
   letter-spacing: 0.1em;
   font-size: 48px;
   font-size: 4.8rem;
+  font-family: "Poppins", sans-serif;
 }
 .home h1 span.small{
   text-align: center;
@@ -932,13 +933,14 @@ ol li {
   padding: 0 15px;
   text-align: center;
   color: #fff;
-  font-weight: 300;
+  font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-size: 15px;
   font-size: 1.5rem;
   line-height: 20px;
   line-height: 2rem;
+  font-family: "Poppins", sans-serif;
 }
 @media (min-width: 768px) {
   /* line 22, ../sass/partials/_home.sass */
@@ -954,7 +956,8 @@ ol li {
 @media (min-width: 1200px) {
   /* line 22, ../sass/partials/_home.sass */
   .home p {
-    margin-bottom: 100px;
+    font-size: 21px;
+    font-size: 2.1rem;
   }
 }
 
@@ -1058,19 +1061,6 @@ label {
 
 .label-active {
   top: -3em;
-}
-
-button {
-  display: inline-block;
-  padding: 12px 24px;
-  background-image: -webkit-linear-gradient(135deg, #91d1ff 0%, #a387ff 100%);
-  font-weight: bold;
-  color: white;
-  border: none;
-  outline: none;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: ease .3s;
 }
 
 /* button:hover {
@@ -1195,4 +1185,9 @@ button {
   background-image: -webkit-linear-gradient(135deg, #91d1ff 0%, #a387ff 100%);
   margin-left: -105px;
   margin-top: -2px;
+}
+
+.featurette {
+  display: flex;
+  align-items: center;
 }
