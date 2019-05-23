@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300|Raleway:400,600,700|Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300|Raleway:400,600,700|Pacifico|Poppins:100,600);
 /* line 1, ../sass/_one-page-scroll.scss */
 body, html {
   margin: 0;
@@ -1063,9 +1063,9 @@ label {
 button {
   display: inline-block;
   padding: 12px 24px;
-  background: rgb(220,220,220);
+  background-image: -webkit-linear-gradient(135deg, #91d1ff 0%, #a387ff 100%);
   font-weight: bold;
-  color: rgb(120,120,120);
+  color: white;
   border: none;
   outline: none;
   border-radius: 3px;
@@ -1073,7 +1073,32 @@ button {
   transition: ease .3s;
 }
 
-button:hover {
+/* button:hover {
   background: #6478db;
   color: #ffffff;
+} */
+
+#subscribe {
+  background-image: -webkit-linear-gradient(135deg, #a387ff 0%, #91d1ff 100%);
+  padding: 50px 0 50px 0;
+}
+
+#subscribe h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+#subscribe h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+#subscribe p {
+  color: white;
 }
