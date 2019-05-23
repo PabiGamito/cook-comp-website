@@ -59,7 +59,7 @@ $(document).ready(function () {
     app.init();
 });
 
-$(document).ready(function(){
+$(document).ready(function() {
 
     $('.input').focus(function(){
       $(this).parent().find(".label-txt").addClass('label-active');
@@ -69,6 +69,15 @@ $(document).ready(function(){
       if ($(this).val() == '') {
         $(this).parent().find(".label-txt").removeClass('label-active');
       };
+    });
+
+    $('form').each(function() {
+        $(this).find('input').keypress(function(e) {
+            // Enter pressed?
+            if(e.which == 10 || e.which == 13) {
+                this.form.submit();
+            }
+        });
     });
   
   });
