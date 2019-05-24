@@ -82,28 +82,10 @@ p {
   margin-bottom: 30px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 300;
-  font-size: 8px;
-  font-size: 0.8rem;
-  line-height: 12px;
-  line-height: 1.2rem;
-}
-@media (min-width: 768px) {
-  /* line 24, ../sass/_type.sass */
-  p {
-    font-size: 10px;
-    font-size: 1.0rem;
-    line-height: 15px;
-    line-height: 1.5rem;
-  }
-}
-@media (min-width: 992px) {
-  /* line 24, ../sass/_type.sass */
-  p {
-    font-size: 12px;
-    font-size: 1.2rem;
-    line-height: 18px;
-    line-height: 1.8rem;
-  }
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 18px;
+  line-height: 1.8rem;
 }
 
 /* line 38, ../sass/_type.sass */
@@ -936,29 +918,11 @@ ol li {
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  font-size: 8px;
-  font-size: 0.8rem;
-  line-height: 20px;
-  line-height: 1rem;
+  font-size: 10px;
+  font-size: 1.0rem;
+  line-height: 15px;
+  line-height: 1.5rem;
   font-family: "Poppins", sans-serif;
-}
-@media (min-width: 768px) {
-  /* line 22, ../sass/partials/_home.sass */
-  .home p {
-    padding: 0;
-    margin-bottom: 50px;
-    font-size: 10px;
-    font-size: 1.0rem;
-    line-height: 24px;
-    line-height: 2.4rem;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 22, ../sass/partials/_home.sass */
-  .home p {
-    font-size: 12px;
-    font-size: 1.2rem;
-  }
 }
 
 /* line 46, ../sass/partials/_home.sass */
