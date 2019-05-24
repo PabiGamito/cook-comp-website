@@ -80,12 +80,13 @@ textarea {
 /* line 24, ../sass/_type.sass */
 p {
   margin-bottom: 30px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 300;
   font-size: 18px;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   line-height: 24px;
-  line-height: 1.8rem;
+  line-height: 1.5rem;
+  color: rgb(119, 119, 119);
 }
 
 /* line 38, ../sass/_type.sass */
