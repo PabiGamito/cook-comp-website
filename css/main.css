@@ -1093,6 +1093,11 @@ label {
   color: white;
 }
 
+#subscribe form {
+  width: 100vw;
+  padding: 0 30px 0 30px;
+}
+
 #subscribe input {
   background-color: rgb(249, 249, 255);
   background-image: none;
@@ -1128,10 +1133,6 @@ label {
   height: 50px;
   letter-spacing: normal;
   line-height: 50px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
   overflow-x: visible;
   overflow-y: visible;
   padding-bottom: 0px;
@@ -1146,6 +1147,7 @@ label {
   text-transform: none;
   touch-action: manipulation;
   width: 469.5px;
+  max-width: 100%;
   word-spacing: 0px;
   writing-mode: horizontal-tb;
   -webkit-appearance: none;
@@ -1153,10 +1155,6 @@ label {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-border-image: none;
   font-weight: 300;
-}
-
-#subscribe input::placeholder {
-  color: #333333;
 }
 
 #subscribe button {
@@ -1175,6 +1173,19 @@ label {
   background-image: -webkit-linear-gradient(135deg, #91d1ff 0%, #a387ff 100%);
   margin-left: -105px;
   margin-top: -2px;
+}
+
+@media (min-width: 768px) {
+  /* line 24, ../sass/_type.sass */
+  #subscribe input {
+
+  }
+}
+@media (min-width: 992px) {
+  /* line 24, ../sass/_type.sass */
+  #subscribe input {
+
+  }
 }
 
 .featurette {
