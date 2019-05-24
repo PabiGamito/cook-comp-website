@@ -82,27 +82,27 @@ p {
   margin-bottom: 30px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 300;
-  font-size: 18px;
-  font-size: 1.8rem;
-  line-height: 24px;
-  line-height: 2.4rem;
+  font-size: 8px;
+  font-size: 0.8rem;
+  line-height: 12px;
+  line-height: 1.2rem;
 }
 @media (min-width: 768px) {
   /* line 24, ../sass/_type.sass */
   p {
-    font-size: 20px;
-    font-size: 2rem;
-    line-height: 28px;
-    line-height: 2.8rem;
+    font-size: 10px;
+    font-size: 1.0rem;
+    line-height: 15px;
+    line-height: 1.5rem;
   }
 }
 @media (min-width: 992px) {
   /* line 24, ../sass/_type.sass */
   p {
-    font-size: 22px;
-    font-size: 2.2rem;
-    line-height: 32px;
-    line-height: 3.2rem;
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 18px;
+    line-height: 1.8rem;
   }
 }
 
@@ -887,8 +887,8 @@ ol li {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 48px;
-  font-size: 4.8rem;
+  font-size: 28px;
+  font-size: 2.8rem;
   font-family: "Poppins", sans-serif;
 }
 .home h1 span.small{
@@ -905,10 +905,10 @@ ol li {
   .home h1 {
     /* margin-top: 60px;
     margin-bottom: 60px; */
-    font-size: 56px;
-    font-size: 5.6rem;
+    font-size: 32px;
+    font-size: 3.2rem;
   }
-  .home h1 span.small{
+  .home h1 span.small {
     font-size: 28px;
     font-size: 2.8rem;
   }
@@ -918,8 +918,8 @@ ol li {
   .home h1 {
     /* margin-top: 150px;
     margin-bottom: 80px; */
-    font-size: 72px;
-    font-size: 7.2rem;
+    font-size: 48px;
+    font-size: 4.8rem;
   }
   .home h1 span.small{
     font-size: 48px;
@@ -936,10 +936,10 @@ ol li {
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  font-size: 15px;
-  font-size: 1.5rem;
+  font-size: 8px;
+  font-size: 0.8rem;
   line-height: 20px;
-  line-height: 2rem;
+  line-height: 1rem;
   font-family: "Poppins", sans-serif;
 }
 @media (min-width: 768px) {
@@ -947,8 +947,8 @@ ol li {
   .home p {
     padding: 0;
     margin-bottom: 50px;
-    font-size: 17px;
-    font-size: 1.7rem;
+    font-size: 10px;
+    font-size: 1.0rem;
     line-height: 24px;
     line-height: 2.4rem;
   }
@@ -956,8 +956,8 @@ ol li {
 @media (min-width: 1200px) {
   /* line 22, ../sass/partials/_home.sass */
   .home p {
-    font-size: 21px;
-    font-size: 2.1rem;
+    font-size: 12px;
+    font-size: 1.2rem;
   }
 }
 
@@ -994,8 +994,8 @@ ol li {
   display: block;
   font-family: "Pacifico", cursive;
   color: #fff;
-  font-size: 28px;
-  font-size: 2.8rem;
+  font-size: 15px;
+  font-size: 1.5rem;
   -moz-transition: all, 400ms;
   -o-transition: all, 400ms;
   -webkit-transition: all, 400ms;
@@ -1136,7 +1136,7 @@ label {
   overflow-y: visible;
   padding-bottom: 0px;
   padding-left: 25px;
-  padding-right: 180px;
+  padding-right: 125px;
   padding-top: 0px;
   text-align: start;
   text-indent: 0px;
@@ -1170,22 +1170,25 @@ label {
   font-weight: 600;
   font-family: Poppins, sans-serif;
   background-image: -webkit-linear-gradient(135deg, #91d1ff 0%, #a387ff 100%);
-  margin-left: -105px;
+  margin-left: -112px;
   margin-top: -2px;
 }
 
-@media (max-width: 503px) {
+@media (max-width: 767px) {
   #subscribe button {
     margin: 10px 0;
+  }
+  #subscribe input {
+    padding-right: 25px;
   }
 }
 
 
 
-.featurette {
+/* .featurette {
   display: flex;
   align-items: center;
-}
+} */
 
 .home a {
   color: white;
@@ -1233,7 +1236,8 @@ label {
   color: rgb(0, 0, 0);
   display: inline;
   font-family: Poppins, sans-serif;
-  font-size: 36px;
+  font-size: 28px;
+  font-size: 1.8rem;
   font-weight: 600;
   height: auto;
   line-height: 54px;
@@ -1245,21 +1249,13 @@ label {
 
 .featurette h2 {
   box-sizing: border-box;
-color: rgb(163, 135, 255);
-display: block;
-font-family: Poppins, sans-serif;
-font-size: 36px;
-font-weight: 100;
-height: 108px;
-line-height: 54px;
-margin-block-end: 0px;
-margin-block-start: 0px;
-margin-bottom: 0px;
-margin-inline-end: 0px;
-margin-inline-start: 0px;
-margin-top: 0px;
-text-size-adjust: 100%;
-text-transform: uppercase;
-width: 469.5px;
--webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+  color: rgb(163, 135, 255);
+  display: block;
+  font-family: Poppins, sans-serif;
+  font-size: 28px;
+  font-size: 1.8rem;
+  font-weight: 100;
+  text-size-adjust: 100%;
+  text-transform: uppercase;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
