@@ -1174,18 +1174,13 @@ label {
   margin-top: -2px;
 }
 
-@media (min-width: 768px) {
-  /* line 24, ../sass/_type.sass */
-  #subscribe input {
-
+@media (max-width: 503px) {
+  #subscribe button {
+    margin: 10px 0;
   }
 }
-@media (min-width: 992px) {
-  /* line 24, ../sass/_type.sass */
-  #subscribe input {
 
-  }
-}
+
 
 .featurette {
   display: flex;
