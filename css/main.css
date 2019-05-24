@@ -1150,10 +1150,9 @@ label {
 
 
 
-/* .featurette {
-  display: flex;
-  align-items: center;
-} */
+.featurette {
+  padding: 20px 0;
+}
 
 .home a {
   color: white;
