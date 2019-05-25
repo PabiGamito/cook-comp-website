@@ -1474,10 +1474,11 @@ img.frame {
     transform-origin: left;
 }
 
-.featurette a.link:hover:after {
+
+/* .featurette a.link:hover:after {
     transform: scale3d(0, 1, 1);
     right: -3px;
     left: -3px;
     transform-origin: left;
     transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
-}
+} */
