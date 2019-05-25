@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300|Raleway:400,600,700|Pacifico|Poppins:100,300,400,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300|Raleway:400,600,700|Pacifico|Poppins:100,300,400,500,600);
 /* line 1, ../sass/_one-page-scroll.scss */
 body, html {
   margin: 0;
@@ -1220,4 +1220,31 @@ label {
   text-size-adjust: 100%;
   text-transform: uppercase;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+img.frame {
+  outline: 10px solid rgb(73, 73, 73);
+  outline-offset: -54px;
+  border: 44px solid transparent;
+  border-width: 15px 10px 85px 85px;
+}
+
+.featurette .num-sec h2 {
+  font-size: 1.125em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.featurette .num-sec .num {
+  color: #a387ff;
+  font-size: 48px;
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+  float: left;
+  margin-right: 20px;
 }
