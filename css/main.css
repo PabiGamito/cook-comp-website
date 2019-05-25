@@ -1414,7 +1414,7 @@ label {
 }
 
 img.frame {
-    outline: 10px solid rgb(73, 73, 73);
+    outline: 8px solid rgb(73, 73, 73);
     outline-offset: -54px;
     border: 44px solid transparent;
     border-width: 15px 10px 85px 85px;
@@ -1447,6 +1447,7 @@ img.frame {
 }
 
 .featurette a.link {
+    position: relative;
     box-sizing: border-box;
     color: rgb(0, 0, 0);
     font-family: Poppins, sans-serif;
@@ -1467,19 +1468,18 @@ img.frame {
     display: inline-block;
     content: '';
     bottom: -3px;
-    left: calc(0.7em * 1.2);
-    right: calc(0.7em * 1.2);
+    left: 0;
+    right: 0;
     height: 3px;
     background: #a387ff;
     transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
     transform-origin: left;
 }
 
-
-/* .featurette a.link:hover:after {
+.featurette a.link:hover:after {
     transform: scale3d(0, 1, 1);
     right: -3px;
     left: -3px;
     transform-origin: left;
     transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
-} */
+}
