@@ -1229,6 +1229,12 @@ img.frame {
   border-width: 15px 10px 85px 85px;
 }
 
+.featurette .num-sec {
+  display: flex;
+  flex-flow: row;
+  height: 100%;
+}
+
 .featurette .num-sec h2 {
   font-size: 1.125em;
   font-weight: 600;
