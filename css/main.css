@@ -1335,14 +1335,16 @@ label {
 
 .home a {
     color: white;
-    padding: 0.7em calc(0.7em * 1.2);
+    padding: 15px 30px;
+    /* padding: 0.7em calc(0.7em * 1.2); */
     display: inline-block;
     border: 3px solid transparent;
     position: relative;
-    font-size: 1.5em;
+    font-size: 1.3em;
     cursor: pointer;
     letter-spacing: 0.07em;
     border: 3px solid #a387ff;
+    font-weight: 400;
     border-radius: 50px;
     transition: background-color 0.2s linear;
 }
